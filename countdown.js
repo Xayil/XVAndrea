@@ -3,7 +3,7 @@ function updateCountdown() {
     const countdownElement = document.getElementsByClassName("countdown-item");
 
     const currentDate = new Date();
-    const eventDate = new Date("2023-11-08 07:59:59"); // Fecha de finalización deseada (año, mes, día, hora, minuto, segundo)
+    const eventDate = new Date("2023-12-28 07:59:59"); // Fecha de finalización deseada (año, mes, día, hora, minuto, segundo)
 
     const timeRemaining = eventDate - currentDate;
 
