@@ -27,7 +27,7 @@ section {
     left: 0%;
     width: 100%;
     height: 250px;
-    background: #ffecfe; /* Color de fondo de la caja blanca con transparencia */
+    background: rgb(34, 115, 92); /* Color de fondo de la caja blanca con transparencia */
     display: flex;
     flex-direction: column;
     align-items: center; /* Centrar verticalmente */
@@ -39,12 +39,20 @@ section {
     font-size: 40px;
     margin: 0;
     text-align: center;
+    color:#fff ;
 }
 
 .content p {
-    font-size: 28px;
+    font-size: 32px;
     max-width: 80%;
     margin: 0 auto;
+    font-family: 'Playfair Display', serif;
+    color: #fff;
+}
+
+.content h2 {
+    font-family: 'Cormorant Garamond', serif;
+    color: #fff;
 }
 
 .image-title {
@@ -60,7 +68,7 @@ section {
 .image-title h2 {
     margin: 0;
     font-size: 120px;
-    font-style: oblique;
+    font-family: 'Cormorant Garamond', serif;
 }
 
 .countdown-container {
@@ -73,7 +81,7 @@ section {
 }
 
 .countdown-item {
-    border: 4px solid #000;
+    border: 4px solid #ffffff;
     padding: 35px;
     margin: 0 20px;
     text-align: center;
@@ -81,68 +89,49 @@ section {
 }
 
 .countdown-value {
-    font-size: 30px;
-    color: #333;
+    font-size: 45px;
+    color: #ffffff;
 }
 
 .countdown-label {
     font-size: 14px;
-    color: #333;
+    color: #ffffff;
 }
 
 #seccion1{
-    background-image: url('https://3.bp.blogspot.com/-tysqNR16QaA/V813A1ebmPI/AAAAAAACezA/ktZioYs5seoeScl5QC5-esdjAees5HErQCLcB/s1600/Vestidos-xv-A%25C3%25B1os%2B%25281%2529.jpg');   
+    background-image: url('/img/1ra.jpeg');   
 }
 #seccion2{
-    background-image: url('https://rosa-borges-photographe.fr/wp-content/uploads/2018/01/photo-bebe-naissance-photographe-troyes.jpg');
-    background-position: 30% 30%;
+    background-image: url('/img/2da.jpeg');
+    background-position: 60% 30%;
 }
 #seccion3{
-    background-image: url('https://embarazo10.com/wp-content/uploads/mejores-fotos-de-bebes-lindos.jpg');   
+    background-image: url('img/3ra.jpeg'); 
+    background-position: 60% 30%;  
 }
 
 #seccion4{
-    background-image: url('https://4.bp.blogspot.com/-QiJVuG2zLsY/U5CWboJfrpI/AAAAAAAAdsU/_P0Dlq246vg/s1600/vestidos-largos-elegantes.jpg');   
+    background-image: url('img/4ta.jpeg');   
 }
 
 #seccion5{
-    background-image: url('https://cdn2.actitudfem.com/media/files/happy-family.jpg');
-    background-position: 80% 30%;
+    background-image: url('img/5ta.jpeg');
+    background-position: 55% 30%;
 }
 
 #seccion6{
-    background-image: url('https://geo-media.beatsource.com/image_size/500x500/a/9/f/a9fd760c-2d0e-463a-b348-8b7ecbb7de5f.jpg');
-    background-position: 50% 30%;
+    background-image: url('img/6ta.jpeg');
+    background-position: 55% 30%;
 }
 
 #seccion7{
-    background-image: url('https://i.pinimg.com/originals/25/77/36/257736e5525245a97dce8cabce5078bf.jpg');
-    background-position: 50% 30%;
+    background-image: url('img/7ma.jpeg');
+    background-position: 65% 30%;
 }
 
 #seccion8{
-    background-image: url('https://2.bp.blogspot.com/-IHhJsNbwAJI/WAg3gdN9K1I/AAAAAAAAXWk/VnRyzMq7lHIL1VlYezGEMALboRVvzZHCwCLcB/s1600/tarjeta-de-invitacion-para-15-anos-rosada-con-listones.jpg');
-    background-position: 50% 30%;
-}
-
-#seccion9{
-    background-image: url('https://i.pinimg.com/originals/c1/10/05/c11005ac9bcc141d6c8878ea179ecfd9.jpg');
-    background-position: 50% 30%;
-}
-
-#seccion10{
-    background-image: url('https://blog.misfelicesxv.com/wp-content/uploads/2020/05/5-hermososos-salones-para-tus-xv-a%C3%B1os-1-1024x597.jpg');
-    background-position: 50% 30%;
-}
-
-#seccion11{
-    background-image: url('https://ecija.com/wp-content/uploads/2017/01/cuenta-atras-768x256.jpg');
-    background-position: 50% 30%;
-}
-
-#seccion12{
-    background-image: url('https://x6i2p6h3.rocketcdn.me/wp-content/uploads/2018/05/97c16d195994553453f3c72098b0ccb4.jpg');
-    background-position: 50% 30%;
+    background-image: url('img/8va.jpeg');
+    background-position: 65% 30%;
 }
 
 .car-button {
@@ -150,26 +139,4 @@ section {
     border: 2px solid #fff6e0; /* Borde color crema */
     padding: 15px 30px; /* Ajusta el tamaño del botón según tus necesidades */
     text-align: center;
-}
-
-@media (max-width: 500px) {
-    .content {
-        height: 150px;
-    }
-
-    .content h1 {
-        font-size: 30px;
-    }
-
-    .content p {
-        font-size: 14px;
-    }
-
-    .image-title {
-        bottom: 200px;
-    }
-
-    .image-title h2 {
-        font-size: 80px;
-    }
 }
