@@ -98,6 +98,29 @@ section {
     color: #ffffff;
 }
 
+.gift {
+    text-align: center;
+}
+
+.present {
+    top: 500px;
+}
+
+.present h2 {
+    color: rgb(0, 0, 0);
+    font-size: 100px;
+    font-family: 'Dancing Script';
+}
+
+.present p {
+    font-size: 60px;
+}
+
+.present h3 {
+    font-size: 70px;
+}
+
+
 #seccion1{
     background-image: url('/img/1ra.jpeg');   
 }
@@ -131,7 +154,7 @@ section {
 
 #seccion8{
     background-image: url('img/8va.jpg');
-    background-size: 150%;
+    background-size: 100%;
 }
 
 #seccion9{
