@@ -57,7 +57,7 @@ section {
 
 .image-title {
     position: absolute;
-    bottom: 300px; /* Ajusta la distancia desde la parte inferior según tus preferencias */
+    bottom: 1700px; /* Ajusta la distancia desde la parte inferior según tus preferencias */
     left: 50%;
     transform: translateX(-50%);
     color: #fff;
