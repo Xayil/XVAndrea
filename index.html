@@ -13,7 +13,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
     <style>
-            * {
+        
+        * {
             padding: 0px;
             margin: 0px;
             font-family: Century;
@@ -48,7 +49,7 @@
 
     </style>
 </head>
-<body>
+<body onclick="PlayAudio()">
     <section class="parrallax" id="seccion1">
         <div class="image-title">
             <h2>Mis 15</h2>
@@ -157,6 +158,13 @@
             </div>
         </div>
     </section>
-    <script src="countdown.js"></script>
+    
+    <audio id="audio1" loop>
+        <source src="audio/cancion.mp3" type="audio/mp3">
+        Este navegador no acepta formatos de audio.
+    </audio>
+
 </body>
+<script src="countdown.js"></script>
+<script src="sound.js"></script>
 </html>
